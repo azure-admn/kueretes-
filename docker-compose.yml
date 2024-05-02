@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  app: 
+    cotainer_name: knote-app
+    image: knote.js
+    environment:
+           Mango_url: 
+    ports:
+     - "3000:3000"
+
